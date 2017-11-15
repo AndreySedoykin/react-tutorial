@@ -39,7 +39,7 @@ var Article = React.createClass({
         bigText = this.props.data.bigText,
         visible = this.state.visible;
 
-    console.log('render',this); {/* добавили console.log */}
+    console.log('render',this);
 
     return (
       <div className='article'>
